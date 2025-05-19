@@ -1,0 +1,11 @@
+{
+    "name": "root/haleeb",
+    "require": {
+        "mongodb/mongodb": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Root\\Haleeb\\": "src/"
+        }
+    }
+}
