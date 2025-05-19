@@ -10,7 +10,7 @@ if(!isset($_SESSION['auth']))
   header('Location:index.php');
 }
 
-$con=mysqli_connect("15.206.128.214","jahaann","Jahaann#321","haleeb");
+$con=mysqli_connect("127.0.0.1","jahaann","Jahaann#321","haleeb");
 
 
 //   Calling the InsertrOLE FUNCTION

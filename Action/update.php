@@ -1,6 +1,6 @@
 <?php
 // Establish a database connection (replace with your own credentials).
-$conn = mysqli_connect("15.206.128.214", "jahaann", "Jahaann#321", "haleeb");
+$conn = mysqli_connect("127.0.0.1", "jahaann", "Jahaann#321", "haleeb");
 
 // Check for a successful connection.
 if ($conn->connect_error) {

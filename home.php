@@ -1735,7 +1735,7 @@ $userLevelArray = explode(",", $permstring);
 
                 <button id="expand-button" style="position: absolute; z-index:999;">Expand</button>
                 <div style="position: relative; margin-left:4%">
-                    <img src="img\Haleeb_Mimic.png" class="expandable-div" alt="" height="692px"><br><br>
+                    <img src="img\Haleeb_Mimic.PNG" class="expandable-div" alt="" height="692px"><br><br>
                     <div id="load1">
                         <?php include('indication.php') ?>
                         <?php include('mimic_values.php') ?>
@@ -2219,7 +2219,7 @@ $userLevelArray = explode(",", $permstring);
                                         <tbody>
                                             <?php
 
-                                            $con = mysqli_connect("15.206.128.214", "jahaann", "Jahaann#321", "haleeb");
+                                            $con = mysqli_connect("127.0.0.1", "jahaann", "Jahaann#321", "haleeb");
                                             $query = mysqli_query($con, "select * from `roles`");
                                             $counter = 1;
                                             while ($row = mysqli_fetch_array($query)) {
@@ -2299,7 +2299,7 @@ $userLevelArray = explode(",", $permstring);
                                         <tbody>
                                             <?php
 
-                                            $con = mysqli_connect("15.206.128.214", "jahaann", "Jahaann#321", "haleeb");
+                                            $con = mysqli_connect("127.0.0.1", "jahaann", "Jahaann#321", "haleeb");
                                             $query = mysqli_query($con, "select * from `permissions`");
                                             $counter = 1;
                                             while ($row = mysqli_fetch_array($query)) {
@@ -2394,7 +2394,7 @@ $userLevelArray = explode(",", $permstring);
                                                 // Connect to the database (assuming you already have the database connection)
 
                                                 // Fetch the privileges from the permissions table
-                                                $con = mysqli_connect("15.206.128.214", "jahaann", "Jahaann#321", "haleeb");
+                                                $con = mysqli_connect("127.0.0.1", "jahaann", "Jahaann#321", "haleeb");
                                                 $query = "SELECT * FROM permissions";
                                                 $result = mysqli_query($con, $query);
 
@@ -2423,7 +2423,7 @@ $userLevelArray = explode(",", $permstring);
                                                 <?php
                                                 // Assuming you have already established a database connection
                                                 // Retrieve the roles from the database
-                                                $con = mysqli_connect("15.206.128.214", "jahaann", "Jahaann#321", "haleeb");
+                                                $con = mysqli_connect("127.0.0.1", "jahaann", "Jahaann#321", "haleeb");
                                                 $sql = "SELECT * FROM roles";
                                                 $result = mysqli_query($con, $sql);
 
@@ -2526,7 +2526,7 @@ $userLevelArray = explode(",", $permstring);
         <span style="float: left; margin-left:20px; margin-top:-10px"><img src="img/Jahaann_01-01.png" alt="" width="113px"></span>
         <span style="float: right;margin-right:20px"><img src="img/sahamid-logo-up.png" alt="" width="243px"></span>
         <p>Copyright &copy; All rights reserved
-            <br>Designed by Jahaann, 2023
+            <br>Designed by Jahaann, 2025
         </p>
 
     </footer>
