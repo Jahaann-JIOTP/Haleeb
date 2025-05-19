@@ -7,7 +7,10 @@ $collection = $db->haleeb;
 $start_date = $_GET["start_date"];
 $end_date = $_GET["end_date"];
 $location = $_GET["location"];
-$selected_fields = explode(",", $location);
+// $selected_fields = explode(",", $location);
+$selected_fields = array_filter(array_map('trim', explode(",", $location)), function($field) {
+    return $field !== '';
+});
 
 $start_date = date('Y-m-d', strtotime($start_date));
 $start_date = $start_date;
